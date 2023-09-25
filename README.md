@@ -11,11 +11,11 @@
 
     Create a database and configure the connection in the .env file.
 
-    <p>Run database migrations:</p>
-    <strong>php artisan migrate</strong>
+    Run database migrations:
+    php artisan migrate
 
-    <li>Start the Laravel development server:</li>
-    <strong>php artisan serve</strong>
+    Start the Laravel development server:
+    php artisan serve
 
 
 <h2>Usage</h2>
