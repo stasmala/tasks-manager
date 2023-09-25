@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained();
             $table->integer('parent_id')->nullable();
-            $table->enum('status', ['todo', 'done']);
+            $table->string('status')->nullable();
             $table->unsignedTinyInteger('priority')->default(1);
             $table->string('title');
             $table->text('description')->nullable();
